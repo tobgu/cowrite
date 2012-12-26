@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CoWrite Registration</title>
+    
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.blueprintcss.org/blueprint/screen.css" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.blueprintcss.org/blueprint/plugins/buttons/screen.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="http://www.blueprintcss.org/blueprint/print.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="css/styles.css" />
+    <!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" 
+      href="http://www.blueprintcss.org/blueprint/ie.css"><![endif]-->
+    <style type="text/css">
+      #registrationContent { width: 350px; margin: 100px auto; }
+      button[type] { margin: 0.5em 0; }
+    </style>
+
+    <!-- Java scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/register.js"></script>
+  </head>
+  <body>
+    <div id="registrationContent" class="container">
+      <div id="registrationResult" style="display:none;"></div>
+      <form id="registrationForm" name="registrationForm" method="post" action="">
+        <fieldset>
+          <legend>Enter information</legend>
+          <p>
+            <label for="firstname">First name</label>
+            <br />
+            <input type="text" id="firstname" name="firstname" class="text" size="20" />
+          </p>
+          <p>
+            <label for="lastname">Last name</label>
+            <br />
+            <input type="text" id="lastname" name="lastname" class="text" size="20" />
+          </p>
+          <p>
+            <label for="username">E-mail (username)</label>
+            <br />
+            <input type="text" id="username" name="username" class="text" size="20" />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <br />
+            <input type="password" id="password" name="password" class="text" size="20" />
+          </p>
+          <p>
+            <label for="repeatedpassword">Repeat Password</label>
+            <br />
+            <input type="password" id="repeatedpassword" name="repeatedpassword" class="text" size="20" />
+          </p>
+          
+          <button type="submit" class="button positive">
+            <img alt="ok" src="http://www.blueprintcss.org/blueprint/plugins/buttons/icons/tick.png" />
+            Register
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

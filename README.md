@@ -1,0 +1,1 @@
+Another try att a data centric logging frameork making the logging a first class citizen of your application.
